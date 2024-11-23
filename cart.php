@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <?php include('fragments/css.php'); ?>
+        <?php include 'fragments/css.php';?>
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -15,7 +15,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        
+
         <!-- preloader area start -->
         <div id="loading">
             <div id="loading-center">
@@ -35,7 +35,7 @@
         <!-- back to top end -->
 
         <!-- header area start -->
-        <?php include('fragments/header.php'); ?>
+        <?php include 'fragments/header.php';?>
         <!-- header area end -->
 
         <!-- offcanvas area start -->
@@ -65,12 +65,12 @@
             </div>
             </div>
         </div>
-        <!-- offcanvas area end -->      
+        <!-- offcanvas area end -->
         <div class="body-overlay"></div>
         <!-- offcanvas area end -->
 
         <main>
-            
+
             <!-- breadcrumb area start -->
             <section class="breadcrumb__area box-plr-75">
                 <div class="container-fluid">
@@ -110,21 +110,25 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="product-thumbnail"><a href="product-details.html"><img src="assets/img/shop/product/product-1.jpg" alt=""></a></td>
-                                                <td class="product-name"><a href="product-details.html">Bakix Furniture</a></td>
+                                                <td class="product-thumbnail"><a href="product-details.php"><img src="http://localhost/assets/img/product.webp" alt=""></a></td>
+                                                <td class="product-name"><a href="product-details.php">Bakix Furniture</a></td>
                                                 <td class="product-price"><span class="amount">$130.00</span></td>
                                                 <td class="product-quantity">
-                                                    <button class="t-y-btn t-y-btn-grey" type="submit">Add TO Cart</button>
+                                                    <button class="t-y-btn t-y-btn-grey" type="submit">1</button>
                                                 </td>
                                                 <td class="product-subtotal"><span class="amount">$130.00</span></td>
                                                 <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
                                             </tr>
                                             <tr>
-                                                <td class="product-thumbnail"><a href="product-details.html"><img src="assets/img/shop/product/product-2.jpg" alt=""></a></td>
-                                                <td class="product-name"><a href="product-details.html">Sujon Chair Set</a></td>
+                                                <td class="product-thumbnail">
+                                                    <a href="product-details.php">
+                                                        <img src="https://i5.walmartimages.com/asr/40574581-c031-46c2-b658-9852a105d4db.f85a635c47c0f4c690846cb146d4bc26.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff" alt="">
+                                                    </a>
+                                                </td>
+                                                <td class="product-name"><a href="product-details.php">Sujon Chair Set</a></td>
                                                 <td class="product-price"><span class="amount">$120.50</span></td>
                                                 <td class="product-quantity">
-                                                    <button class="t-y-btn t-y-btn-grey" type="submit">Add TO Cart</button>
+                                                    <button class="t-y-btn t-y-btn-grey" type="submit">2</button>
                                                 </td>
                                                 <td class="product-subtotal"><span class="amount">$120.50</span></td>
                                                 <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
@@ -133,17 +137,21 @@
                                     </table>
                                 </div>
                             </form>
+                            <div class="my-5 text-end">
+                                <button class="btn btn-secondary btn-lg"><i class="fal fa-arrow-left"></i> Continue Shopping</button>
+                                <a href="checkout.php" class="btn btn-primary btn-lg"><i class="fal fa-shopping-cart"></i> Checkout</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- Cart Area End-->
- 
+
         </main>
 
-        <?php include('fragments/footer.php'); ?>
+        <?php include 'fragments/footer.php';?>
 
         <!-- JS here -->
-        <?php include('fragments/js.php'); ?>
+        <?php include 'fragments/js.php';?>
     </body>
 </html>

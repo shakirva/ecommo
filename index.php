@@ -7,17 +7,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <?php include('fragments/css.php'); ?>
+        <?php include 'fragments/css.php';?>
         <style>
 
-          
+
 
             .banner__content {
   position: absolute;
   top: 20px;
   left: 20px;
   color: white;
-  
+
   padding: 15px;
   border-radius: 8px;
 }
@@ -123,16 +123,16 @@
       display: flex;
       gap: 15px;
       padding: 15px;
-   
+
       border-radius: 8px;
-   
+
       margin-bottom: 15px; /* Spacing between cards */
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       background-color: #fff;
     }
     .product:hover {
       transform: translateY(-1px);
-      
+
     }
     .product-details {
       flex-grow: .5;
@@ -168,7 +168,7 @@
 
     .logo:hover {
       transform: scale(1.6); /* Slightly enlarge on hover */
-   
+
     }
 
             </style>
@@ -200,8 +200,8 @@
         <!-- back to top end -->
 
         <!-- header area start -->
-       
-        <?php include('fragments/header.php'); ?>
+
+        <?php include 'fragments/header.php';?>
 
         <!-- header area end -->
 
@@ -233,15 +233,15 @@
             </div>
             </div>
         </div>
-        <!-- offcanvas area end -->      
+        <!-- offcanvas area end -->
         <div class="body-overlay"></div>
         <!-- offcanvas area end -->
 
         <main>
 
-           
 
-         
+
+
             <!-- slider area satrt -->
             <!-- slider area satrt -->
             <section class="slider__area pt-30 pb-30">
@@ -270,13 +270,13 @@
                                         <div class="row">
                                             <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                                                 <div class="banner__item mb-20 w-img">
-                                                    <a href="product-details.html"><img src="assets/img/hero1 (2).webp" alt=""></a>
+                                                    <a href="product-details.php"><img src="assets/img/hero1 (2).webp" alt=""></a>
                                                 </div>
                                             </div>
-                                           
+
                                             <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                                                 <div class="banner__item w-img">
-                                                    <a href="product-details.html"><img src="assets/img/hero1 (2).webp" style=" margin-top:-7px" alt=""></a>
+                                                    <a href="product-details.php"><img src="assets/img/hero1 (2).webp" style=" margin-top:-7px" alt=""></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -288,11 +288,11 @@
                 </div>
             </section>
             <!-- slider area end -->
-          
-           
 
 
-            <img src="assets/img/free-delivery.webp" alt="slider" class="img-fluid"> 
+
+
+            <img src="assets/img/free-delivery.webp" alt="slider" class="img-fluid">
 
 
             <section class="py-5">
@@ -356,7 +356,7 @@
                         </div>
                     </div>
                 </section>
-            
+
 
 
 
@@ -367,31 +367,31 @@
         <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="banner__item w-img mb-30 position-relative">
-                    <a href="product-details.html"><img src="assets/img/img-1.webp" alt=""></a>
+                    <a href="product-details.php"><img src="assets/img/img-1.webp" alt=""></a>
                     <div class="banner__content">
                         <h3>Top Deals on Electronics</h3>
                         <p>Get the best prices on your favorite electronic devices and gadgets.</p>
-                        <a href="product-details.html" class="shop-now-btn">Shop Now</a>
+                        <a href="product-details.php" class="shop-now-btn">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="banner__item mb-30 w-img position-relative">
-                    <a href="product-details.html"><img src="assets/img/img-2.webp" alt=""></a>
+                    <a href="product-details.php"><img src="assets/img/img-2.webp" alt=""></a>
                     <div class="banner__content">
                         <h3>Upgrade Your Gear</h3>
                         <p>Discover high-performance laptops, tablets, and more for your needs.</p>
-                        <a href="product-details.html" class="shop-now-btn">Shop Now</a>
+                        <a href="product-details.php" class="shop-now-btn">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="banner__item mb-30 w-img position-relative">
-                    <a href="product-details.html"><img src="assets/img/img-3.webp" alt=""></a>
+                    <a href="product-details.php"><img src="assets/img/img-3.webp" alt=""></a>
                     <div class="banner__content">
                         <h3>Smart TVs & Accessories</h3>
                         <p>Experience the best in entertainment with our range of smart TVs.</p>
-                        <a href="product-details.html" class="shop-now-btn">Shop Now</a>
+                        <a href="product-details.php" class="shop-now-btn">Shop Now</a>
                     </div>
                 </div>
             </div>
@@ -437,7 +437,7 @@
                                     <div class="product__slider owl-carousel">
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -445,13 +445,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
+                                                    <a class="product-item-link" href="product-details.php"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -470,7 +470,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -478,13 +478,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
+                                                    <a class="product-item-link" href="product-details.php"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -503,7 +503,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -511,13 +511,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung C49J89: £875, Debenhams Plus  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -536,7 +536,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -544,13 +544,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Blink Home Security <br> Camera System 01   </a>
+                                                    <a class="product-item-link" href="product-details.php"> Blink Home Security <br> Camera System 01   </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -569,7 +569,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -577,13 +577,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL)   </a>
+                                                    <a class="product-item-link" href="product-details.php"> Blue t-shir for men <br> (X, M, XL, XXL)   </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -602,7 +602,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative" >
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -610,13 +610,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -635,7 +635,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -643,13 +643,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Blink Home Security Camera <br> System 01   </a>
+                                                    <a class="product-item-link" href="product-details.php"> Blink Home Security Camera <br> System 01   </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -672,7 +672,7 @@
                                     <div class="product__slider owl-carousel">
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -680,13 +680,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
+                                                    <a class="product-item-link" href="product-details.php"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -705,7 +705,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -713,13 +713,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
+                                                    <a class="product-item-link" href="product-details.php"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -738,7 +738,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -746,13 +746,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung C49J89: £875, Debenhams Plus  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -771,7 +771,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -779,13 +779,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
+                                                    <a class="product-item-link" href="product-details.php">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -804,7 +804,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -812,13 +812,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL)    </a>
+                                                    <a class="product-item-link" href="product-details.php"> Blue t-shir for men <br> (X, M, XL, XXL)    </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -837,7 +837,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative" >
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -845,13 +845,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -870,7 +870,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -878,13 +878,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
+                                                    <a class="product-item-link" href="product-details.php">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -907,7 +907,7 @@
                                     <div class="product__slider owl-carousel">
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-1.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-2.jpg" alt="product">
                                                 </a>
@@ -915,13 +915,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
+                                                    <a class="product-item-link" href="product-details.php"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -940,7 +940,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-3.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-4.jpg" alt="product">
                                                 </a>
@@ -948,13 +948,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
+                                                    <a class="product-item-link" href="product-details.php"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -973,7 +973,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-5.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-6.jpg" alt="product">
                                                 </a>
@@ -981,13 +981,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung C49J89: £875, Debenhams Plus  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1006,7 +1006,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-7.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
                                                 </a>
@@ -1014,13 +1014,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
+                                                    <a class="product-item-link" href="product-details.php">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1039,7 +1039,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-9.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-10.jpg" alt="product">
                                                 </a>
@@ -1047,13 +1047,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL)    </a>
+                                                    <a class="product-item-link" href="product-details.php"> Blue t-shir for men <br> (X, M, XL, XXL)    </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1072,7 +1072,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative" >
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-11.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-12.jpg" alt="product">
                                                 </a>
@@ -1080,13 +1080,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1105,7 +1105,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-7.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
                                                 </a>
@@ -1113,13 +1113,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
+                                                    <a class="product-item-link" href="product-details.php">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1142,7 +1142,7 @@
                                     <div class="product__slider owl-carousel">
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-1.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-2.jpg" alt="product">
                                                 </a>
@@ -1150,13 +1150,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
+                                                    <a class="product-item-link" href="product-details.php"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1175,7 +1175,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-3.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-4.jpg" alt="product">
                                                 </a>
@@ -1183,13 +1183,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
+                                                    <a class="product-item-link" href="product-details.php"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1208,7 +1208,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-5.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-6.jpg" alt="product">
                                                 </a>
@@ -1216,13 +1216,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung C49J89: £875, Debenhams Plus  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1241,7 +1241,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-7.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
                                                 </a>
@@ -1249,13 +1249,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
+                                                    <a class="product-item-link" href="product-details.php">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1274,7 +1274,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-9.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-10.jpg" alt="product">
                                                 </a>
@@ -1282,13 +1282,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL)    </a>
+                                                    <a class="product-item-link" href="product-details.php"> Blue t-shir for men <br> (X, M, XL, XXL)    </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1307,7 +1307,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative" >
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-11.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-12.jpg" alt="product">
                                                 </a>
@@ -1315,13 +1315,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1340,7 +1340,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/shop/product/product-7.jpg" alt="product">
                                                     <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
                                                 </a>
@@ -1348,13 +1348,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
+                                                    <a class="product-item-link" href="product-details.php">LG 27UD58: £347.21, <br> Ebuyer.com  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1565,7 +1565,7 @@
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
                         <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
-                        <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
+                        <a href="product-details.php" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
                     </div>
                 </div>
             </div>
@@ -1577,7 +1577,7 @@
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 20% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Top Electronics</h3>
                         <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$299</span></p>
-                        <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
+                        <a href="product-details.php" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
                     </div>
                 </div>
             </div>
@@ -1598,7 +1598,7 @@
                                     <h3>New<span>Arrivals</span></h3>
                                 </div>
                                 <div class="product__nav-tab mr-75">
-                                  
+
                                 </div>
                             </div>
 
@@ -1611,7 +1611,7 @@
                                     <div class="product__slider owl-carousel">
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -1619,13 +1619,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
+                                                    <a class="product-item-link" href="product-details.php"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1644,7 +1644,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -1652,13 +1652,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
+                                                    <a class="product-item-link" href="product-details.php"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1677,7 +1677,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -1685,13 +1685,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung C49J89: £875, Debenhams Plus  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1710,7 +1710,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -1718,13 +1718,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Blink Home Security <br> Camera System 01   </a>
+                                                    <a class="product-item-link" href="product-details.php"> Blink Home Security <br> Camera System 01   </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1743,7 +1743,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -1751,13 +1751,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL)   </a>
+                                                    <a class="product-item-link" href="product-details.php"> Blue t-shir for men <br> (X, M, XL, XXL)   </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1776,7 +1776,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative" >
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -1784,13 +1784,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
+                                                    <a class="product-item-link" href="product-details.php"> Samsung A20 Pro Ultra <br> CPU 4/64 GB  </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1809,7 +1809,7 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
+                                                <a href="product-details.php" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
                                                     <img class="second-img" src="assets/img/product.webp" alt="product">
                                                 </a>
@@ -1817,13 +1817,13 @@
                                                     <ul>
                                                         <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                         <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="product__content text-center">
                                                 <h6 class="product-name">
-                                                    <a class="product-item-link" href="product-details.html"> Blink Home Security Camera <br> System 01   </a>
+                                                    <a class="product-item-link" href="product-details.php"> Blink Home Security Camera <br> System 01   </a>
                                                 </h6>
                                                 <div class="rating">
                                                     <ul>
@@ -1850,15 +1850,15 @@
             </section>
             <!-- banner area end -->
 
-           
+
             <!-- Flash sell area end -->
 
             <!-- banner area start -->
-           
+
             <!-- banner area end -->
 
             <!-- onsale product area start -->
-            
+
             <!-- onsale product area end -->
 
 
@@ -1866,7 +1866,7 @@
   <div class="row g-4" >
     <!-- Section 1 -->
     <div class="col-md-4"  >
-     
+
       <div class="product-list  "  style= " box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); " >
       <div class="section-header blue">SAVE UP TO 20% OFF<br>Top selling products</div>
         <!-- Product 1 -->
@@ -1901,7 +1901,7 @@
 
     <!-- Section 2 -->
     <div class="col-md-4">
-     
+
       <div class="product-list  "  style= " box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); " >
       <div class="section-header green">GET 10% OFF ON ALL<br>Top rated products</div>
         <!-- Product 1 -->
@@ -1936,7 +1936,7 @@
 
     <!-- Section 3 -->
     <div class="col-md-4">
-     
+
       <div class="product-list  "  style= " box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); " >
       <div class="section-header orange">RECEIVE 20% OFF<br>Featured products</div>
         <!-- Product 1 -->
@@ -1979,7 +1979,7 @@
     <img src="assets/img/logo-5.png" alt="Libby's Logo" class="logo">
     <img src="assets/img/logo-6.png" alt="Tropicana Logo" class="logo">
   </div>
-            
+
             <!-- subscribe area end -->
 
             <!-- back to top btn area start -->
@@ -1996,7 +1996,7 @@
             </section>
             <!-- back to top btn area end -->
 
-    		
+
 
             <!-- shop modal start -->
             <div class="modal fade" id="productModalId" tabindex="-1" role="dialog" aria-hidden="true">
@@ -2058,7 +2058,7 @@
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="product__modal-content">
-                                        <h4><a href="product-details.html">Samsung C49J89: £875, Debenhams Plus</a></h4>
+                                        <h4><a href="product-details.php">Samsung C49J89: £875, Debenhams Plus</a></h4>
                                         <div class="product__modal-des mb-40">
                                             <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt </p>
                                         </div>
@@ -2103,7 +2103,7 @@
                                         <div class="product__modal-links">
                                             <ul>
                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                            
+
                                             <li><a href="#" title="Print"><i class="fal fa-print"></i></a></li>
                                             <li><a href="#" title="Print"><i class="fal fa-share-alt"></i></a></li>
                                             </ul>
@@ -2117,15 +2117,15 @@
                 </div>
             </div>
             <!-- shop modal end -->
- 
- 
+
+
         </main>
 
-        <?php include('fragments/footer.php'); ?>
+        <?php include 'fragments/footer.php';?>
 
 		<!-- JS here -->
-        <?php include('fragments/js.php'); ?>
-      
+        <?php include 'fragments/js.php';?>
+
 
     </body>
 </html>

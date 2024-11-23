@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <?php include('fragments/css.php'); ?>
+        <?php include 'fragments/css.php';?>
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -35,7 +35,7 @@
         <!-- back to top end -->
 
         <!-- header area start -->
-       <?php include('fragments/header.php'); ?>
+       <?php include 'fragments/header.php';?>
         <!-- header area end -->
 
         <!-- offcanvas area start -->
@@ -65,12 +65,12 @@
             </div>
             </div>
         </div>
-        <!-- offcanvas area end -->      
+        <!-- offcanvas area end -->
         <div class="body-overlay"></div>
         <!-- offcanvas area end -->
 
         <main>
-            
+
             <!-- breadcrumb area start -->
             <section class="breadcrumb__area box-plr-75">
                 <div class="container-fluid">
@@ -99,32 +99,32 @@
                                 <ul class="nav nav-tabs flex-sm-column justify-content-between" id="productThumbTab" role="tablist">
                                     <li class="nav-item" role="presentation">
                                       <button class="nav-link active" id="thumbOne-tab" data-bs-toggle="tab" data-bs-target="#thumbOne" type="button" role="tab" aria-controls="thumbOne" aria-selected="true">
-                                          <img src="assets/img/shop/product/details/product-nav-1.jpg" alt="">
+                                          <img src="https://www.bhphotovideo.com/images/images2500x2500/skullcandy_s6hbgy_374_hesh_2_bluetooth_headphones_1085703.jpg" alt="">
                                       </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
                                       <button class="nav-link" id="thumbTwo-tab" data-bs-toggle="tab" data-bs-target="#thumbTwo" type="button" role="tab" aria-controls="thumbTwo" aria-selected="false">
-                                        <img src="assets/img/shop/product/details/product-nav-2.jpg" alt="">
+                                        <img src="https://i5.walmartimages.com/asr/40574581-c031-46c2-b658-9852a105d4db.f85a635c47c0f4c690846cb146d4bc26.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff" alt="">
                                       </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
                                       <button class="nav-link" id="thumbThree-tab" data-bs-toggle="tab" data-bs-target="#thumbThree" type="button" role="tab" aria-controls="thumbThree" aria-selected="false">
-                                        <img src="assets/img/shop/product/details/product-nav-3.jpg" alt="">
+                                        <img src="assets/img/product.webp" alt="">
                                       </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
                                       <button class="nav-link" id="thumbFour-tab" data-bs-toggle="tab" data-bs-target="#thumbFour" type="button" role="tab" aria-controls="thumbFour" aria-selected="false">
-                                        <img src="assets/img/shop/product/details/product-nav-4.jpg" alt="">
+                                        <img src="assets/img/product.webp" alt="">
                                       </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
                                       <button class="nav-link" id="thumbFive-tab" data-bs-toggle="tab" data-bs-target="#thumbFive" type="button" role="tab" aria-controls="thumbFive" aria-selected="false">
-                                        <img src="assets/img/shop/product/details/product-nav-5.jpg" alt="">
+                                        <img src="assets/img/product.webp" alt="">
                                       </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
                                       <button class="nav-link" id="thumbSix-tab" data-bs-toggle="tab" data-bs-target="#thumbSix" type="button" role="tab" aria-controls="thumbSix" aria-selected="false">
-                                        <img src="assets/img/shop/product/details/product-nav-6.jpg" alt="">
+                                        <img src="assets/img/product.webp" alt="">
                                       </button>
                                     </li>
                                 </ul>
@@ -132,12 +132,12 @@
                                     <div class="tab-content" id="productThumbContent">
                                         <div class="tab-pane fade show active" id="thumbOne" role="tabpanel" aria-labelledby="thumbOne-tab">
                                             <div class="product__details-nav-thumb">
-                                                <img src="assets/img/shop/product/details/big/product-nav-big-1.jpg" alt="">
+                                                <img src="https://www.bhphotovideo.com/images/images2500x2500/skullcandy_s6hbgy_374_hesh_2_bluetooth_headphones_1085703.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="thumbTwo" role="tabpanel" aria-labelledby="thumbTwo-tab">
                                             <div class="product__details-nav-thumb">
-                                                <img src="assets/img/shop/product/details/big/product-nav-big-2.jpg" alt="">
+                                                <img src="https://i5.walmartimages.com/asr/40574581-c031-46c2-b658-9852a105d4db.f85a635c47c0f4c690846cb146d4bc26.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff" alt="">
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="thumbThree" role="tabpanel" aria-labelledby="thumbThree-tab">
@@ -168,7 +168,7 @@
                             <div class="product__details-wrapper">
                                 <div class="product__details">
                                     <h3 class="product__details-title">
-                                        <a href="product-details.html">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W 32 to 128GB</a>
+                                        <a href="product-details.php">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W 32 to 128GB</a>
                                     </h3>
                                     <div class="product__review d-sm-flex">
                                         <div class="rating rating__shop mb-15 mr-35">
@@ -238,7 +238,7 @@
                                       <button class="nav-link active" id="des-tab" data-bs-toggle="tab" data-bs-target="#des" type="button" role="tab" aria-controls="des" aria-selected="true">Details</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                      <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false">Review 5</button>
+                                      <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false">Reviews</button>
                                     </li>
                                   </ul>
                             </div>
@@ -258,7 +258,8 @@
                                             <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
                                         </div>
                                         <div class="product__details-des-banner w-img">
-                                            <img src="assets/img/shop/product/details/product-details-banner.jpg" alt="">
+                                            <!-- <img src="assets/img/shop/product/details/product-details-banner.jpg" alt=""> -->
+                                             <img src="https://static.vecteezy.com/system/resources/previews/002/478/302/original/sale-electronics-banner-background-free-vector.jpg"/>
                                         </div>
                                     </div>
                                 </div>
@@ -274,29 +275,29 @@
                                                             <div class="review-ratings-single d-flex align-items-center">
                                                                 <span>Quality</span>
                                                                 <ul>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                                     <li><a href="#"><i class="fal fa-star"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="review-ratings-single d-flex align-items-center">
                                                                 <span>Price</span>
                                                                 <ul>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                                     <li><a href="#"><i class="fal fa-star"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="review-ratings-single d-flex align-items-center">
                                                                 <span>Value</span>
                                                                 <ul>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                                     <li><a href="#"><i class="fal fa-star"></i></a></li>
                                                                     <li><a href="#"><i class="fal fa-star"></i></a></li>
                                                                 </ul>
@@ -322,31 +323,31 @@
                                                             <div class="review-ratings-single d-flex align-items-center">
                                                                 <span>Quality</span>
                                                                 <ul>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                                     <li><a href="#"><i class="fal fa-star"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="review-ratings-single d-flex align-items-center">
                                                                 <span>Price</span>
                                                                 <ul>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="review-ratings-single d-flex align-items-center">
                                                                 <span>Value</span>
                                                                 <ul>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -370,29 +371,29 @@
                                                             <div class="review-ratings-single d-flex align-items-center">
                                                                 <span>Quality</span>
                                                                 <ul>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="review-ratings-single d-flex align-items-center">
                                                                 <span>Price</span>
                                                                 <ul>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                                     <li><a href="#"><i class="fal fa-star"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="review-ratings-single d-flex align-items-center">
                                                                 <span>Value</span>
                                                                 <ul>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                                     <li><a href="#"><i class="fal fa-star"></i></a></li>
                                                                     <li><a href="#"><i class="fal fa-star"></i></a></li>
                                                                 </ul>
@@ -484,7 +485,7 @@
                                     </div>
                                 </div>
                               </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -508,9 +509,9 @@
                             <div class="product__slider owl-carousel">
                                 <div class="product__item white-bg mb-30">
                                     <div class="product__thumb p-relative">
-                                        <a href="product-details.html" class="w-img">
-                                            <img src="assets/img/shop/product/product-1.jpg" alt="product">
-                                            <img class="second-img" src="assets/img/shop/product/product-2.jpg" alt="product">
+                                        <a href="product-details.php" class="w-img">
+                                            <img src="assets/img/product.webp" alt="product">
+                                            <img class="second-img" src="assets/img/product.webp" alt="product">
                                         </a>
                                         <div class="product__action p-absolute">
                                             <ul>
@@ -522,7 +523,7 @@
                                     </div>
                                     <div class="product__content text-center">
                                         <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
+                                            <a class="product-item-link" href="product-details.php"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                         </h6>
                                         <div class="rating">
                                             <ul>
@@ -541,9 +542,9 @@
                                 </div>
                                 <div class="product__item white-bg mb-30">
                                     <div class="product__thumb p-relative">
-                                        <a href="product-details.html" class="w-img">
-                                            <img src="assets/img/shop/product/product-3.jpg" alt="product">
-                                            <img class="second-img" src="assets/img/shop/product/product-4.jpg" alt="product">
+                                        <a href="product-details.php" class="w-img">
+                                            <img src="https://p3-ofp.static.pub//fes/cms/2024/03/20/wqicx6bgm6chugxvfzcq30qtidxcwu809332.png" alt="product">
+                                            <img class="second-img" src="https://p3-ofp.static.pub//fes/cms/2024/03/20/wqicx6bgm6chugxvfzcq30qtidxcwu809332.png" alt="product">
                                         </a>
                                         <div class="product__action p-absolute">
                                             <ul>
@@ -555,7 +556,7 @@
                                     </div>
                                     <div class="product__content text-center">
                                         <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, Ebuyer.com </a>
+                                            <a class="product-item-link" href="product-details.php"> LG 27UD58: £347.21, Ebuyer.com </a>
                                         </h6>
                                         <div class="rating">
                                             <ul>
@@ -574,9 +575,9 @@
                                 </div>
                                 <div class="product__item white-bg mb-30">
                                     <div class="product__thumb p-relative">
-                                        <a href="product-details.html" class="w-img">
-                                            <img src="assets/img/shop/product/product-5.jpg" alt="product">
-                                            <img class="second-img" src="assets/img/shop/product/product-6.jpg" alt="product">
+                                        <a href="product-details.php" class="w-img">
+                                            <img src="https://www.bhphotovideo.com/images/images2000x2000/apple_z0pd_me086ll_a_tp_21_5_imac_desktop_computer_1061728.jpg" alt="product">
+                                            <img class="second-img" src="https://www.bhphotovideo.com/images/images2000x2000/apple_z0pd_me086ll_a_tp_21_5_imac_desktop_computer_1061728.jpg" alt="product">
                                         </a>
                                         <div class="product__action p-absolute">
                                             <ul>
@@ -588,7 +589,7 @@
                                     </div>
                                     <div class="product__content text-center">
                                         <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus  </a>
+                                            <a class="product-item-link" href="product-details.php"> Samsung C49J89: £875, Debenhams Plus  </a>
                                         </h6>
                                         <div class="rating">
                                             <ul>
@@ -607,7 +608,7 @@
                                 </div>
                                 <div class="product__item white-bg mb-30">
                                     <div class="product__thumb p-relative">
-                                        <a href="product-details.html" class="w-img">
+                                        <a href="product-details.php" class="w-img">
                                             <img src="assets/img/shop/product/product-7.jpg" alt="product">
                                             <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
                                         </a>
@@ -621,7 +622,7 @@
                                     </div>
                                     <div class="product__content text-center">
                                         <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01   </a>
+                                            <a class="product-item-link" href="product-details.php"> Blink Home Security Camera System 01   </a>
                                         </h6>
                                         <div class="rating">
                                             <ul>
@@ -640,7 +641,7 @@
                                 </div>
                                 <div class="product__item white-bg mb-30">
                                     <div class="product__thumb p-relative">
-                                        <a href="product-details.html" class="w-img">
+                                        <a href="product-details.php" class="w-img">
                                             <img src="assets/img/shop/product/product-9.jpg" alt="product">
                                             <img class="second-img" src="assets/img/shop/product/product-10.jpg" alt="product">
                                         </a>
@@ -654,7 +655,7 @@
                                     </div>
                                     <div class="product__content text-center">
                                         <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html"> Blue t-shir for men (X, M, XL, XXL)   </a>
+                                            <a class="product-item-link" href="product-details.php"> Blue t-shir for men (X, M, XL, XXL)   </a>
                                         </h6>
                                         <div class="rating">
                                             <ul>
@@ -673,7 +674,7 @@
                                 </div>
                                 <div class="product__item white-bg mb-30">
                                     <div class="product__thumb p-relative" >
-                                        <a href="product-details.html" class="w-img">
+                                        <a href="product-details.php" class="w-img">
                                             <img src="assets/img/shop/product/product-11.jpg" alt="product">
                                             <img class="second-img" src="assets/img/shop/product/product-12.jpg" alt="product">
                                         </a>
@@ -687,7 +688,7 @@
                                     </div>
                                     <div class="product__content text-center">
                                         <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra CPU 4/64 GB  </a>
+                                            <a class="product-item-link" href="product-details.php"> Samsung A20 Pro Ultra CPU 4/64 GB  </a>
                                         </h6>
                                         <div class="rating">
                                             <ul>
@@ -706,7 +707,7 @@
                                 </div>
                                 <div class="product__item white-bg mb-30">
                                     <div class="product__thumb p-relative">
-                                        <a href="product-details.html" class="w-img">
+                                        <a href="product-details.php" class="w-img">
                                             <img src="assets/img/shop/product/product-7.jpg" alt="product">
                                             <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
                                         </a>
@@ -720,7 +721,7 @@
                                     </div>
                                     <div class="product__content text-center">
                                         <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01   </a>
+                                            <a class="product-item-link" href="product-details.php"> Blink Home Security Camera System 01   </a>
                                         </h6>
                                         <div class="rating">
                                             <ul>
@@ -768,7 +769,7 @@
                 </div>
             </section>
             <!-- brand area end -->
- 
+
             <!-- shop modal start -->
             <div class="modal fade" id="productModalId" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered product__modal" role="document">
@@ -829,7 +830,7 @@
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="product__modal-content">
-                                        <h4><a href="product-details.html">Samsung C49J89: £875, Debenhams Plus</a></h4>
+                                        <h4><a href="product-details.php">Samsung C49J89: £875, Debenhams Plus</a></h4>
                                         <div class="product__modal-des mb-40">
                                             <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt </p>
                                         </div>
@@ -891,9 +892,9 @@
 
         </main>
 
-        <?php include('fragments/footer.php'); ?>
+        <?php include 'fragments/footer.php';?>
 
 		<!-- JS here -->
-        <?php include('fragments/js.php'); ?>
+        <?php include 'fragments/js.php';?>
     </body>
 </html>
